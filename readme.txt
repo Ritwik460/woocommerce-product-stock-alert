@@ -84,7 +84,6 @@ Yes, this plugin works with WooCommerce Subscription Product.
 
 == Changelog ==
 1.7.4 - 2021-12-10 =
-
 * Fixed - Fetal errors due to Uncaught TypeError.
 * Fixed - Jquery Issues #40.
 * Added - Woocommerce_product_stock_alert_form filter in order to customize alert form.
