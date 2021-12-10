@@ -110,6 +110,7 @@ class WOO_Product_Stock_Alert_Display_Form {
         if (is_user_logged_in()) {
             $current_user = wp_get_current_user();
             $user_email = $current_user->data->user_email;
+	}
 		
         $stock_interest = apply_filters('woocommerce_product_stock_alert_form', '<div class="alert_container">
 									' . $alert_text_html . '
